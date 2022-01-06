@@ -1,0 +1,248 @@
+body {
+	background: #DBDFDE;
+
+	font-size: 15px;
+	font-weight:;
+	font-family: 'Segoe UI', Tahoma, Geneva, Vernada, sans-serif; 
+}
+
+
+a {
+	text-decoration: dashed;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #fff;
+	opacity: 0.9;
+	transition: 0.6s;
+}
+
+a:not(hover) {
+	transition: 0.7s;
+}
+
+a:active {
+	color: #976132;
+}
+
+
+/*Когда посетили сайт*/
+a:visited {
+}
+
+.em {
+	font-weight: 700;
+}
+
+.visit {
+	font-weight: normal;
+	color: #575C5C;
+}
+
+.khabib {
+	width: 234px;
+	border-radius: 15%;
+	box-shadow: 9px 7px 10px #7D868B;
+
+}
+
+.info p {
+	color: #575C5C;
+	margin: 0;
+	font-style: italic;
+	font-weight: normal;
+	text-transform: none;
+	letter-spacing: 0.5px;
+	word-spacing: 1px
+}
+
+.info h4 {
+	color: #000;
+	font-weight: bold;
+
+}
+
+.info { 
+	display: flex;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+	.info {
+		text-align: center;
+		display: block;
+	}
+}
+
+.info-text {
+	margin-left: 40px;
+}
+
+/*.infos h4 {
+	font-weight: bold;
+	font-size: 20px;
+}
+.infos {
+	background: #629797;
+	padding: 10px 5px;
+	margin: 20px;
+	border: 5px solid #4D9771;
+	border-bottom-style: dotted;
+	border-right-color: #97798C;
+	border-top-color: #97798C;
+}*/
+
+/*Сделать для всех элементов*/
+* {
+
+}
+
+.list {
+	padding: 0px 20px;
+}
+
+.bg-yellow {
+	background: #BCC181;
+}
+
+.bg-green {
+	background: #9BC194;
+}
+
+.bg-red {
+	background: #C194A3;
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+	padding-top: 25px;
+}
+
+.card {
+	margin-bottom: 20px;
+	border-radius: 20px;
+	padding: 20px 25px
+}
+
+
+.h3 {
+	text-align: center;
+}
+
+.card h2 {
+	margin-bottom: 15px; 
+}
+
+.list {
+	list-style: georgian;
+}
+
+.card li {
+	color: #41544E ;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #78827C;
+}
+
+.table {
+	width: 100%
+
+}
+
+.table td {
+	padding-bottom: 3px;
+	text-align: center;
+}
+
+
+.table td:nth-child(2), .table td:nth-child(3) {
+	color: #3C9796;
+}
+
+.link-list {
+	list-style: none;	
+	padding: 0;
+}
+
+.link-list li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.contact h3 {
+	text-align: center;
+
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color: #4C4C4C;
+	font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea  {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #4C4C4C;
+	color: #000;
+	padding: 10px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
+
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.row > .form-group {
+	width: 50%;
+
+}
+
+.row > .form-group:first-child {
+	margin-right: 20px;
+}
+
+.btn {
+	background: black;
+	color: #fff;
+	padding: 15px 20px;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+
+	margin-left: 300px;
+
+}
+
+.btn:hover {
+	color: #43A282 ;
+	opacity: 0.9;
+	transition: 0.6s;
+}
+
+.btn:not(hover) {
+	transition: 0.7s;
+}
+
+.position {
+
+}
+
+.box {
+	position: fixed;
+	width: 4%;
+	bottom: 40px;
+	right: 20px;
+	height: 40px;
+	background: lightcoral;
+	border-radius: 50%;
+}
